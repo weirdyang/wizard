@@ -57,7 +57,7 @@ export class SideMenuComponent implements OnInit {
     }
 
     selectJob(job: Job) {
-        alert(job.jobName);
+
         this.jobService.selectJob(job);
     }
 }
